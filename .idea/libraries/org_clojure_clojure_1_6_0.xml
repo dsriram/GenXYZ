@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="org.clojure:clojure:1.6.0" type="repository">
+    <properties maven-id="org.clojure:clojure:1.6.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/clojure-1.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsr166y-1.7.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/lib/clojure-1.6.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
