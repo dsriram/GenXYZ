@@ -104,5 +104,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="org.zeromq:jeromq:0.3.4" level="project" />
   </component>
 </module>
