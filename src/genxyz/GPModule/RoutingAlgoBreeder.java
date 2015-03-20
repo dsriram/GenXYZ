@@ -93,6 +93,8 @@ public class RoutingAlgoBreeder extends GPModel {
 
     @Override
     public double getFitness(CandidateProgram candidateProgram) {
+
+        System.out.println(candidateProgram);
         BooksimBroker bksmbrokr = BooksimBrokerFactory.getBooksimBroker(booksimEndPoint);
         GPBooksimBridge bksmbridge = GPBooksimBridgeFactory.getGPBooksimBridge(gpEndpoint);
         bksmbridge.setCandidateProgram(this, (GPCandidateProgram) candidateProgram);
@@ -109,7 +111,9 @@ public class RoutingAlgoBreeder extends GPModel {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        return bksmbridge.getFitness();
+        double fitness = bksmbridge.getFitness();
+        System.out.println("Fitness is: "+ fitness);
+        return fitness;
 
     }
 

@@ -48,7 +48,7 @@ public class Main {
 //        System.out.println("The best fitness we were able to achieve is: " + m.getOverallBestFitness());
 //        System.out.println("The best gene we could breed is:\n" + m.getOverallBestGene());
 
-        String booksimEndpoint = "tcp://192.168.59.104:9999";
+        String booksimEndpoint = "tcp://192.168.59.103:9999";
         String gpEndpoint = "tcp://192.168.59.3:11112";
 
         RoutingAlgoBreeder m = new RoutingAlgoBreeder(4, booksimEndpoint, gpEndpoint);

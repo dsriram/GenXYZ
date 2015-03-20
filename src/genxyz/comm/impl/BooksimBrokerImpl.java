@@ -37,7 +37,7 @@ public class BooksimBrokerImpl implements BooksimBroker {
         }
         s.send(gpEndpoint);
         reply = s.recvStr();
-        System.out.println(reply);
+//        System.out.println(reply);
 //        ByteBuffer buf = ByteBuffer.allocate(16);
 //        s.recvByteBuffer(buf,0);
 //        buf.rewind();
